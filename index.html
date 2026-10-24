@@ -5,6 +5,16 @@
   <meta charset="UTF-8">
   <title>Title</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .button {
+      border: none;
+      font-size: 20px;
+      padding: 10px 15px;
+      background-color: transparent;
+      cursor: pointer;
+      color: white;
+    }
+  </style>
 </head>
 <body>
   <div style="width: 800px;">
@@ -13,8 +23,11 @@
     </div>
 
     <div style="background-color: black;">
-      <button style="border: none;font-size: 20px;padding: 10px 15px;background-color: transparent;cursor: pointer;color: white;">
+      <button class="button">
         <i class="fa fa-play" aria-hidden="true"></i>
+      </button>
+            <button class="button">
+        <i class="fa fa-pause" aria-hidden="true"></i>
       </button>
     </div>
   </div>
