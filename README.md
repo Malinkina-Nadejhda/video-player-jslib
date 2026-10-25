@@ -21,3 +21,7 @@ pip install -r requirements.txt
 ```bash
 python main.py 
 ```
+
+
+После этого переходите по ссылке [127.0.0.1:5500](http://127.0.0.1:5500), вы увидите главную страницу.
+![Скриншот плеера](assets/player.png)
