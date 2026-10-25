@@ -20,6 +20,11 @@
 
     .controls-panel {
       background-color: black;
+      display: flex;
+      }
+
+      .spacer {
+      flex-grow: 1
       }
 
     .control-button {
@@ -27,7 +32,7 @@
       font-size: 25px;
       width: 50px;
       height: 40px;
-      margin: 0 10px;
+      margin: 0 5px;
       background-color: transparent;
       cursor: pointer;
       color: white;
@@ -51,6 +56,13 @@
       <button class="control-button js-mute-button" hidden>
         <i class="fa fa-volume-up" aria-hidden="true"></i>
       </button>
+
+      <div class="spacer"></div>
+
+      <button class="control-button js-fullscreen-button">
+        <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+      </button>
+
     </div>
 
 </div>
