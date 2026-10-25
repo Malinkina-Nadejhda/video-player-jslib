@@ -1,10 +1,11 @@
 from livereload import Server
 
 
-def rebuild():
-    print(r"Сервер http://127.0.0.1:35729/ обновлен!")
+def main():
+    server = Server()
+    server.watch('index.html')
+    server.serve(root='.')
 
 
-server = Server()
-server.watch('index.html', rebuild)
-server.serve(root='.')
+if __name__ == '__main__':
+    main()
