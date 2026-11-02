@@ -25,4 +25,10 @@ python main.py
 
 После этого переходите по ссылке [127.0.0.1:5500](http://127.0.0.1:5500), вы увидите главную страницу.
 
+
+**video-player-jslib**
+
 ![Скриншот плеера](images/player.jpg)
+
+
+[Посмотреть демо плеера](https://malinkina-nadejhda.github.io/video-player-jslib/)
