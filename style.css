@@ -21,11 +21,23 @@
 
 .control-button {
   border: none;
-  font-size: 25px;
-  width: 50px;
-  height: 40px;
-  margin: 0 5px;
+  font-size: 19px;
+  width: 35px;
+  height: 41px;
+  margin: 0;
   background-color: transparent;
   cursor: pointer;
   color: white;
+}
+
+.js-play-button, .js-pause-button {
+  margin-left: -1px;
+}
+
+.js-mute-button, .js-volume-button {
+  margin-left: 2px;
+}
+
+.js-fullscreen-button {
+  margin-right: 3px;
 }
