@@ -15,8 +15,9 @@
   display: flex;
   }
 
-  .spacer {
-  flex-grow: 1
+  .progress-bar {
+  color: white;
+  flex-grow: 1;
   }
 
 .control-button {
@@ -41,3 +42,5 @@
 .js-fullscreen-button {
   margin-right: 3px;
 }
+
+.
