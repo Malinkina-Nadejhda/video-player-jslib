@@ -53,9 +53,16 @@
 
 .js-progress{
   flex-grow: 1;
-  background-color: grey;
+  background-color: transparent;
+  height: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .js-progress-slider{
   background-color: red;
+  border-radius: 5px;
+  height: 5px;
+  margin-left: 3px;
+  margin-right: 10px;
 }
