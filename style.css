@@ -61,6 +61,11 @@
   margin-right: 10px;
 }
 
+.js-progress:hover .slider{
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
 .js-progress-slider{
   background-color: red;
   border-radius: 5px;
@@ -76,4 +81,6 @@
   border-radius: 50%;
   display: inline-block;
   box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: opacity 300ms ease-out;
 }
