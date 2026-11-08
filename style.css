@@ -24,10 +24,6 @@
   font-weight: 400;
   }
 
-  .spacer {
-  flex-grow: 1;
-  }
-
 .control-button {
   border: none;
   font-size: 19px;
@@ -37,6 +33,10 @@
   background-color: transparent;
   cursor: pointer;
   color: white;
+}
+
+.control-button:focus {
+  outline: none;
 }
 
 .js-play-button, .js-pause-button {
